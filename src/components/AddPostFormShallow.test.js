@@ -1,14 +1,11 @@
-import {render, screen} from "@testing-library/react";
-import configureMockStore from "redux-mock-store"
-import thunk from "redux-thunk";
+
 import { shallow } from "enzyme"
 import AddPostForm from "./AddPostForm";
 
-const middleton = [thunk]
-const mockStore = configureMockStore(middleton)
 
 
-test("Shallow test of the Nav component", () => {
+
+test("Shallow test of the AddForm component", () => {
     const wrapper = shallow(
             <AddPostForm.WrappedComponent />
         )
