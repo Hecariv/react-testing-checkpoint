@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the same way every time 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-sm-10"
+  >
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+          htmlFor="title-field"
+        >
+          Title
+        </label>
+        <input
+          className="form-control"
+          id="title-field"
+          name="title"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+          htmlFor="body-field"
+        >
+          Body
+        </label>
+        <input
+          className="form-control"
+          id="body-field"
+          name="body"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+          htmlFor="author-field"
+        >
+          Author
+        </label>
+        <input
+          className="form-control"
+          id="author-field"
+          name="author"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className=""
+          htmlFor="image-field"
+        >
+          Image URL
+        </label>
+        <input
+          className="form-control"
+          htmlFor="ulr"
+          id="image-field"
+          name="image"
+          onChange={[Function]}
+          placeholder="https://example.com"
+          required={true}
+          type="url"
+        />
+      </div>
+      <button
+        aria-label={null}
+        className="btn btn-secondary disabled"
+        disabled={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
